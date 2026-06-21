@@ -1,0 +1,72 @@
+# .project metadata for cert-manager
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cert-manager"
+name: "cert-manager"
+description: "Automatically provision and manage TLS certificates in Kubernetes"
+type: "project"
+project_lead: "munnerz" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#cert-manager"
+    link: "https://kubernetes.slack.com/messages/cert-manager"
+    primary: true
+  - name: "#cert-manager-aws-privateca-issuer"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2020-11-10T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/770" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/cert-manager/cert-manager"
+
+website: "https://cert-manager.io/"
+
+artwork: "https://landscape.cncf.io/logos/jetstack-cert-manager.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/cert-manager/cert-manager/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cert-manager/cert-manager"
+
+social:
+  twitter: "https://twitter.com/CertManager"
+
+security:
+  policy:
+    path: "https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cert-manager/cert-manager/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cert-manager/cert-manager/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cert-manager/cert-manager/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/cert-manager/cert-manager/blob/master/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cert-manager/cert-manager/blob/master/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
