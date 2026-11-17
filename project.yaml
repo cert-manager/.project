@@ -27,7 +27,7 @@ repositories:
 
 website: "https://cert-manager.io/"
 
-artwork: "https://landscape.cncf.io/logos/jetstack-cert-manager.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/cert-manager"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
