@@ -1,0 +1,24 @@
+# Prow reads this file to decide who may /approve and /lgtm pull requests.
+# Keep it in step with CODEOWNERS and maintainers.yaml.
+approvers:
+- munnerz
+- joshvanl
+- wallrj
+- jakexks
+- sgtcodfish
+- maelvls
+- inteon
+- thatsmrtalbot
+- erikgb
+- hjoshi123
+reviewers:
+- munnerz
+- joshvanl
+- wallrj
+- jakexks
+- sgtcodfish
+- maelvls
+- inteon
+- thatsmrtalbot
+- erikgb
+- hjoshi123
